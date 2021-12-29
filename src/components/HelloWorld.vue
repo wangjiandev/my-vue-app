@@ -3,6 +3,7 @@ import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 
+// 测试钩子
 const count = ref(0)
 </script>
 
